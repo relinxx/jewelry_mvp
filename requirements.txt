@@ -1,0 +1,8 @@
+torch
+transformers>=4.56.0
+huggingface_hub
+Pillow
+numpy
+psycopg[binary]
+pgvector
+python-dotenv

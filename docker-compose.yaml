@@ -1,0 +1,21 @@
+# docker-compose.yaml
+
+services:
+  db:
+    image: pgvector/pgvector:pg17
+
+    container_name: jewelry-vector-db
+
+    environment:
+      POSTGRES_DB: jewelry
+      POSTGRES_USER: jewelry_user
+      POSTGRES_PASSWORD: jewelry_password
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      - jewelry_postgres_data:/var/lib/postgresql/data
+
+volumes:
+  jewelry_postgres_data:
