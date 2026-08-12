@@ -3,6 +3,9 @@ transformers>=4.56.0
 huggingface_hub
 Pillow
 numpy
+fastapi
+uvicorn[standard]
+python-multipart
 psycopg[binary]
 pgvector
 python-dotenv
