@@ -117,13 +117,19 @@ async def search(
             limit=limit,
             category=selected_category,
         )
+    except RuntimeError as error:
+        logger.exception("Catalog search dataset error.")
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=str(error),
+        ) from error
     except DatabaseConfigurationError as error:
         logger.exception("Database is not configured.")
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail="Database is not configured.",
         ) from error
-    except psycopg.Error as error:
+    except Exception as error:
         logger.exception("Similarity search failed.")
         raise HTTPException(
             status_code=status.HTTP_503_SERVICE_UNAVAILABLE,

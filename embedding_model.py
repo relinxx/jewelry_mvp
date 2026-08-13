@@ -5,7 +5,7 @@ from PIL import Image, ImageOps
 from transformers import AutoImageProcessor, AutoModel
 
 
-MODEL_NAME = "facebook/dinov3-vitb16-pretrain-lvd1689m"
+MODEL_NAME = "facebook/dinov2-base"
 
 
 if torch.cuda.is_available():

@@ -1,0 +1,1658 @@
+[
+  {
+    "id": 1,
+    "km_code": "KM_409",
+    "category": "rings",
+    "image_path": "output/rings/KM_409.jpg"
+  },
+  {
+    "id": 2,
+    "km_code": "KM_410",
+    "category": "rings",
+    "image_path": "output/rings/KM_410.jpg"
+  },
+  {
+    "id": 3,
+    "km_code": "KM_411",
+    "category": "rings",
+    "image_path": "output/rings/KM_411.jpg"
+  },
+  {
+    "id": 4,
+    "km_code": "KM_412",
+    "category": "rings",
+    "image_path": "output/rings/KM_412.jpg"
+  },
+  {
+    "id": 5,
+    "km_code": "KM_413",
+    "category": "rings",
+    "image_path": "output/rings/KM_413.jpg"
+  },
+  {
+    "id": 6,
+    "km_code": "KM_414",
+    "category": "rings",
+    "image_path": "output/rings/KM_414.jpg"
+  },
+  {
+    "id": 7,
+    "km_code": "KM_415",
+    "category": "rings",
+    "image_path": "output/rings/KM_415.jpg"
+  },
+  {
+    "id": 8,
+    "km_code": "KM_416",
+    "category": "rings",
+    "image_path": "output/rings/KM_416.jpg"
+  },
+  {
+    "id": 9,
+    "km_code": "KM_417",
+    "category": "rings",
+    "image_path": "output/rings/KM_417.jpg"
+  },
+  {
+    "id": 10,
+    "km_code": "KM_418",
+    "category": "rings",
+    "image_path": "output/rings/KM_418.jpg"
+  },
+  {
+    "id": 11,
+    "km_code": "KM_419",
+    "category": "rings",
+    "image_path": "output/rings/KM_419.jpg"
+  },
+  {
+    "id": 12,
+    "km_code": "KM_420",
+    "category": "rings",
+    "image_path": "output/rings/KM_420.jpg"
+  },
+  {
+    "id": 13,
+    "km_code": "KM_421",
+    "category": "rings",
+    "image_path": "output/rings/KM_421.jpg"
+  },
+  {
+    "id": 14,
+    "km_code": "KM_422",
+    "category": "rings",
+    "image_path": "output/rings/KM_422.jpg"
+  },
+  {
+    "id": 15,
+    "km_code": "KM_423",
+    "category": "rings",
+    "image_path": "output/rings/KM_423.jpg"
+  },
+  {
+    "id": 16,
+    "km_code": "KM_424",
+    "category": "rings",
+    "image_path": "output/rings/KM_424.jpg"
+  },
+  {
+    "id": 17,
+    "km_code": "KM_425",
+    "category": "rings",
+    "image_path": "output/rings/KM_425.jpg"
+  },
+  {
+    "id": 18,
+    "km_code": "KM_426",
+    "category": "rings",
+    "image_path": "output/rings/KM_426.jpg"
+  },
+  {
+    "id": 19,
+    "km_code": "KM_427",
+    "category": "rings",
+    "image_path": "output/rings/KM_427.jpg"
+  },
+  {
+    "id": 20,
+    "km_code": "KM_428",
+    "category": "rings",
+    "image_path": "output/rings/KM_428.jpg"
+  },
+  {
+    "id": 21,
+    "km_code": "KM_429",
+    "category": "rings",
+    "image_path": "output/rings/KM_429.jpg"
+  },
+  {
+    "id": 22,
+    "km_code": "KM_430",
+    "category": "rings",
+    "image_path": "output/rings/KM_430.jpg"
+  },
+  {
+    "id": 23,
+    "km_code": "KM_431",
+    "category": "rings",
+    "image_path": "output/rings/KM_431.jpg"
+  },
+  {
+    "id": 24,
+    "km_code": "KM_432",
+    "category": "rings",
+    "image_path": "output/rings/KM_432.jpg"
+  },
+  {
+    "id": 25,
+    "km_code": "KM_433",
+    "category": "rings",
+    "image_path": "output/rings/KM_433.jpg"
+  },
+  {
+    "id": 26,
+    "km_code": "KM_434",
+    "category": "rings",
+    "image_path": "output/rings/KM_434.jpg"
+  },
+  {
+    "id": 27,
+    "km_code": "KM_435",
+    "category": "rings",
+    "image_path": "output/rings/KM_435.jpg"
+  },
+  {
+    "id": 28,
+    "km_code": "KM_436",
+    "category": "rings",
+    "image_path": "output/rings/KM_436.jpg"
+  },
+  {
+    "id": 29,
+    "km_code": "KM_437",
+    "category": "rings",
+    "image_path": "output/rings/KM_437.jpg"
+  },
+  {
+    "id": 30,
+    "km_code": "KM_438",
+    "category": "rings",
+    "image_path": "output/rings/KM_438.jpg"
+  },
+  {
+    "id": 31,
+    "km_code": "KM_439",
+    "category": "rings",
+    "image_path": "output/rings/KM_439.jpg"
+  },
+  {
+    "id": 32,
+    "km_code": "KM_440",
+    "category": "rings",
+    "image_path": "output/rings/KM_440.jpg"
+  },
+  {
+    "id": 33,
+    "km_code": "KM_441",
+    "category": "rings",
+    "image_path": "output/rings/KM_441.jpg"
+  },
+  {
+    "id": 34,
+    "km_code": "KM_442",
+    "category": "rings",
+    "image_path": "output/rings/KM_442.jpg"
+  },
+  {
+    "id": 35,
+    "km_code": "KM_443",
+    "category": "rings",
+    "image_path": "output/rings/KM_443.jpg"
+  },
+  {
+    "id": 36,
+    "km_code": "KM_444",
+    "category": "rings",
+    "image_path": "output/rings/KM_444.jpg"
+  },
+  {
+    "id": 37,
+    "km_code": "KM_445",
+    "category": "rings",
+    "image_path": "output/rings/KM_445.jpg"
+  },
+  {
+    "id": 38,
+    "km_code": "KM_446",
+    "category": "rings",
+    "image_path": "output/rings/KM_446.jpg"
+  },
+  {
+    "id": 39,
+    "km_code": "KM_447",
+    "category": "rings",
+    "image_path": "output/rings/KM_447.jpg"
+  },
+  {
+    "id": 40,
+    "km_code": "KM_448",
+    "category": "rings",
+    "image_path": "output/rings/KM_448.jpg"
+  },
+  {
+    "id": 41,
+    "km_code": "KM_449",
+    "category": "rings",
+    "image_path": "output/rings/KM_449.jpg"
+  },
+  {
+    "id": 42,
+    "km_code": "KM_450",
+    "category": "rings",
+    "image_path": "output/rings/KM_450.jpg"
+  },
+  {
+    "id": 43,
+    "km_code": "KM_451",
+    "category": "rings",
+    "image_path": "output/rings/KM_451.jpg"
+  },
+  {
+    "id": 44,
+    "km_code": "KM_452",
+    "category": "rings",
+    "image_path": "output/rings/KM_452.jpg"
+  },
+  {
+    "id": 45,
+    "km_code": "KM_453",
+    "category": "rings",
+    "image_path": "output/rings/KM_453.jpg"
+  },
+  {
+    "id": 46,
+    "km_code": "KM_454",
+    "category": "rings",
+    "image_path": "output/rings/KM_454.jpg"
+  },
+  {
+    "id": 47,
+    "km_code": "KM_455",
+    "category": "rings",
+    "image_path": "output/rings/KM_455.jpg"
+  },
+  {
+    "id": 48,
+    "km_code": "KM_456",
+    "category": "rings",
+    "image_path": "output/rings/KM_456.jpg"
+  },
+  {
+    "id": 49,
+    "km_code": "KM_457",
+    "category": "rings",
+    "image_path": "output/rings/KM_457.jpg"
+  },
+  {
+    "id": 50,
+    "km_code": "KM_458",
+    "category": "rings",
+    "image_path": "output/rings/KM_458.jpg"
+  },
+  {
+    "id": 51,
+    "km_code": "KM_459",
+    "category": "rings",
+    "image_path": "output/rings/KM_459.jpg"
+  },
+  {
+    "id": 52,
+    "km_code": "KM_460",
+    "category": "rings",
+    "image_path": "output/rings/KM_460.jpg"
+  },
+  {
+    "id": 53,
+    "km_code": "KM_461",
+    "category": "rings",
+    "image_path": "output/rings/KM_461.jpg"
+  },
+  {
+    "id": 54,
+    "km_code": "KM_462",
+    "category": "rings",
+    "image_path": "output/rings/KM_462.jpg"
+  },
+  {
+    "id": 55,
+    "km_code": "KM_463",
+    "category": "rings",
+    "image_path": "output/rings/KM_463.jpg"
+  },
+  {
+    "id": 56,
+    "km_code": "KM_464",
+    "category": "rings",
+    "image_path": "output/rings/KM_464.jpg"
+  },
+  {
+    "id": 57,
+    "km_code": "KM_465",
+    "category": "rings",
+    "image_path": "output/rings/KM_465.jpg"
+  },
+  {
+    "id": 58,
+    "km_code": "KM_466",
+    "category": "rings",
+    "image_path": "output/rings/KM_466.jpg"
+  },
+  {
+    "id": 59,
+    "km_code": "KM_467",
+    "category": "rings",
+    "image_path": "output/rings/KM_467.jpg"
+  },
+  {
+    "id": 60,
+    "km_code": "KM_468",
+    "category": "rings",
+    "image_path": "output/rings/KM_468.jpg"
+  },
+  {
+    "id": 61,
+    "km_code": "KM_529",
+    "category": "rings",
+    "image_path": "output/rings/KM_529.jpg"
+  },
+  {
+    "id": 62,
+    "km_code": "KM_530",
+    "category": "rings",
+    "image_path": "output/rings/KM_530.jpg"
+  },
+  {
+    "id": 63,
+    "km_code": "KM_531",
+    "category": "rings",
+    "image_path": "output/rings/KM_531.jpg"
+  },
+  {
+    "id": 64,
+    "km_code": "KM_532",
+    "category": "rings",
+    "image_path": "output/rings/KM_532.jpg"
+  },
+  {
+    "id": 65,
+    "km_code": "KM_533",
+    "category": "rings",
+    "image_path": "output/rings/KM_533.jpg"
+  },
+  {
+    "id": 66,
+    "km_code": "KM_534",
+    "category": "rings",
+    "image_path": "output/rings/KM_534.jpg"
+  },
+  {
+    "id": 67,
+    "km_code": "KM_535",
+    "category": "rings",
+    "image_path": "output/rings/KM_535.jpg"
+  },
+  {
+    "id": 68,
+    "km_code": "KM_536",
+    "category": "rings",
+    "image_path": "output/rings/KM_536.jpg"
+  },
+  {
+    "id": 69,
+    "km_code": "KM_537",
+    "category": "rings",
+    "image_path": "output/rings/KM_537.jpg"
+  },
+  {
+    "id": 70,
+    "km_code": "KM_538",
+    "category": "rings",
+    "image_path": "output/rings/KM_538.jpg"
+  },
+  {
+    "id": 71,
+    "km_code": "KM_539",
+    "category": "rings",
+    "image_path": "output/rings/KM_539.jpg"
+  },
+  {
+    "id": 72,
+    "km_code": "KM_540",
+    "category": "rings",
+    "image_path": "output/rings/KM_540.jpg"
+  },
+  {
+    "id": 73,
+    "km_code": "KM_541",
+    "category": "rings",
+    "image_path": "output/rings/KM_541.jpg"
+  },
+  {
+    "id": 74,
+    "km_code": "KM_542",
+    "category": "rings",
+    "image_path": "output/rings/KM_542.jpg"
+  },
+  {
+    "id": 75,
+    "km_code": "KM_543",
+    "category": "rings",
+    "image_path": "output/rings/KM_543.jpg"
+  },
+  {
+    "id": 76,
+    "km_code": "KM_544",
+    "category": "rings",
+    "image_path": "output/rings/KM_544.jpg"
+  },
+  {
+    "id": 77,
+    "km_code": "KM_545",
+    "category": "rings",
+    "image_path": "output/rings/KM_545.jpg"
+  },
+  {
+    "id": 78,
+    "km_code": "KM_546",
+    "category": "rings",
+    "image_path": "output/rings/KM_546.jpg"
+  },
+  {
+    "id": 79,
+    "km_code": "KM_547",
+    "category": "rings",
+    "image_path": "output/rings/KM_547.jpg"
+  },
+  {
+    "id": 80,
+    "km_code": "KM_548",
+    "category": "rings",
+    "image_path": "output/rings/KM_548.jpg"
+  },
+  {
+    "id": 81,
+    "km_code": "KM_549",
+    "category": "rings",
+    "image_path": "output/rings/KM_549.jpg"
+  },
+  {
+    "id": 82,
+    "km_code": "KM_550",
+    "category": "rings",
+    "image_path": "output/rings/KM_550.jpg"
+  },
+  {
+    "id": 83,
+    "km_code": "KM_551",
+    "category": "rings",
+    "image_path": "output/rings/KM_551.jpg"
+  },
+  {
+    "id": 84,
+    "km_code": "KM_552",
+    "category": "rings",
+    "image_path": "output/rings/KM_552.jpg"
+  },
+  {
+    "id": 85,
+    "km_code": "KM_553",
+    "category": "rings",
+    "image_path": "output/rings/KM_553.jpg"
+  },
+  {
+    "id": 86,
+    "km_code": "KM_554",
+    "category": "rings",
+    "image_path": "output/rings/KM_554.jpg"
+  },
+  {
+    "id": 87,
+    "km_code": "KM_555",
+    "category": "rings",
+    "image_path": "output/rings/KM_555.jpg"
+  },
+  {
+    "id": 88,
+    "km_code": "KM_556",
+    "category": "rings",
+    "image_path": "output/rings/KM_556.jpg"
+  },
+  {
+    "id": 89,
+    "km_code": "KM_557",
+    "category": "rings",
+    "image_path": "output/rings/KM_557.jpg"
+  },
+  {
+    "id": 90,
+    "km_code": "KM_558",
+    "category": "rings",
+    "image_path": "output/rings/KM_558.jpg"
+  },
+  {
+    "id": 91,
+    "km_code": "KM_559",
+    "category": "rings",
+    "image_path": "output/rings/KM_559.jpg"
+  },
+  {
+    "id": 92,
+    "km_code": "KM_560",
+    "category": "rings",
+    "image_path": "output/rings/KM_560.jpg"
+  },
+  {
+    "id": 93,
+    "km_code": "KM_561",
+    "category": "rings",
+    "image_path": "output/rings/KM_561.jpg"
+  },
+  {
+    "id": 94,
+    "km_code": "KM_562",
+    "category": "rings",
+    "image_path": "output/rings/KM_562.jpg"
+  },
+  {
+    "id": 95,
+    "km_code": "KM_563",
+    "category": "rings",
+    "image_path": "output/rings/KM_563.jpg"
+  },
+  {
+    "id": 96,
+    "km_code": "KM_564",
+    "category": "rings",
+    "image_path": "output/rings/KM_564.jpg"
+  },
+  {
+    "id": 97,
+    "km_code": "KM_565",
+    "category": "rings",
+    "image_path": "output/rings/KM_565.jpg"
+  },
+  {
+    "id": 98,
+    "km_code": "KM_566",
+    "category": "rings",
+    "image_path": "output/rings/KM_566.jpg"
+  },
+  {
+    "id": 99,
+    "km_code": "KM_567",
+    "category": "rings",
+    "image_path": "output/rings/KM_567.jpg"
+  },
+  {
+    "id": 100,
+    "km_code": "KM_568",
+    "category": "rings",
+    "image_path": "output/rings/KM_568.jpg"
+  },
+  {
+    "id": 101,
+    "km_code": "KM_569",
+    "category": "rings",
+    "image_path": "output/rings/KM_569.jpg"
+  },
+  {
+    "id": 102,
+    "km_code": "KM_570",
+    "category": "rings",
+    "image_path": "output/rings/KM_570.jpg"
+  },
+  {
+    "id": 103,
+    "km_code": "KM_571",
+    "category": "rings",
+    "image_path": "output/rings/KM_571.jpg"
+  },
+  {
+    "id": 104,
+    "km_code": "KM_572",
+    "category": "rings",
+    "image_path": "output/rings/KM_572.jpg"
+  },
+  {
+    "id": 105,
+    "km_code": "KM_573",
+    "category": "rings",
+    "image_path": "output/rings/KM_573.jpg"
+  },
+  {
+    "id": 106,
+    "km_code": "KM_574",
+    "category": "rings",
+    "image_path": "output/rings/KM_574.jpg"
+  },
+  {
+    "id": 107,
+    "km_code": "KM_575",
+    "category": "rings",
+    "image_path": "output/rings/KM_575.jpg"
+  },
+  {
+    "id": 108,
+    "km_code": "KM_576",
+    "category": "rings",
+    "image_path": "output/rings/KM_576.jpg"
+  },
+  {
+    "id": 109,
+    "km_code": "KM_577",
+    "category": "rings",
+    "image_path": "output/rings/KM_577.jpg"
+  },
+  {
+    "id": 110,
+    "km_code": "KM_578",
+    "category": "rings",
+    "image_path": "output/rings/KM_578.jpg"
+  },
+  {
+    "id": 111,
+    "km_code": "KM_579",
+    "category": "rings",
+    "image_path": "output/rings/KM_579.jpg"
+  },
+  {
+    "id": 112,
+    "km_code": "KM_580",
+    "category": "rings",
+    "image_path": "output/rings/KM_580.jpg"
+  },
+  {
+    "id": 113,
+    "km_code": "KM_581",
+    "category": "rings",
+    "image_path": "output/rings/KM_581.jpg"
+  },
+  {
+    "id": 114,
+    "km_code": "KM_582",
+    "category": "rings",
+    "image_path": "output/rings/KM_582.jpg"
+  },
+  {
+    "id": 115,
+    "km_code": "KM_583",
+    "category": "rings",
+    "image_path": "output/rings/KM_583.jpg"
+  },
+  {
+    "id": 116,
+    "km_code": "KM_584",
+    "category": "rings",
+    "image_path": "output/rings/KM_584.jpg"
+  },
+  {
+    "id": 117,
+    "km_code": "KM_585",
+    "category": "rings",
+    "image_path": "output/rings/KM_585.jpg"
+  },
+  {
+    "id": 118,
+    "km_code": "KM_586",
+    "category": "rings",
+    "image_path": "output/rings/KM_586.jpg"
+  },
+  {
+    "id": 119,
+    "km_code": "KM_587",
+    "category": "rings",
+    "image_path": "output/rings/KM_587.jpg"
+  },
+  {
+    "id": 120,
+    "km_code": "KM_588",
+    "category": "rings",
+    "image_path": "output/rings/KM_588.jpg"
+  },
+  {
+    "id": 121,
+    "km_code": "KM_589",
+    "category": "rings",
+    "image_path": "output/rings/KM_589.jpg"
+  },
+  {
+    "id": 122,
+    "km_code": "KM_590",
+    "category": "rings",
+    "image_path": "output/rings/KM_590.jpg"
+  },
+  {
+    "id": 123,
+    "km_code": "KM_591",
+    "category": "rings",
+    "image_path": "output/rings/KM_591.jpg"
+  },
+  {
+    "id": 124,
+    "km_code": "KM_592",
+    "category": "rings",
+    "image_path": "output/rings/KM_592.jpg"
+  },
+  {
+    "id": 125,
+    "km_code": "KM_593",
+    "category": "rings",
+    "image_path": "output/rings/KM_593.jpg"
+  },
+  {
+    "id": 126,
+    "km_code": "KM_594",
+    "category": "rings",
+    "image_path": "output/rings/KM_594.jpg"
+  },
+  {
+    "id": 127,
+    "km_code": "KM_595",
+    "category": "rings",
+    "image_path": "output/rings/KM_595.jpg"
+  },
+  {
+    "id": 128,
+    "km_code": "KM_596",
+    "category": "rings",
+    "image_path": "output/rings/KM_596.jpg"
+  },
+  {
+    "id": 129,
+    "km_code": "KM_597",
+    "category": "rings",
+    "image_path": "output/rings/KM_597.jpg"
+  },
+  {
+    "id": 130,
+    "km_code": "KM_598",
+    "category": "rings",
+    "image_path": "output/rings/KM_598.jpg"
+  },
+  {
+    "id": 131,
+    "km_code": "KM_599",
+    "category": "rings",
+    "image_path": "output/rings/KM_599.jpg"
+  },
+  {
+    "id": 132,
+    "km_code": "KM_600",
+    "category": "rings",
+    "image_path": "output/rings/KM_600.jpg"
+  },
+  {
+    "id": 133,
+    "km_code": "KM_601",
+    "category": "rings",
+    "image_path": "output/rings/KM_601.jpg"
+  },
+  {
+    "id": 134,
+    "km_code": "KM_602",
+    "category": "rings",
+    "image_path": "output/rings/KM_602.jpg"
+  },
+  {
+    "id": 135,
+    "km_code": "KM_603",
+    "category": "rings",
+    "image_path": "output/rings/KM_603.jpg"
+  },
+  {
+    "id": 136,
+    "km_code": "KM_604",
+    "category": "rings",
+    "image_path": "output/rings/KM_604.jpg"
+  },
+  {
+    "id": 137,
+    "km_code": "KM_605",
+    "category": "rings",
+    "image_path": "output/rings/KM_605.jpg"
+  },
+  {
+    "id": 138,
+    "km_code": "KM_606",
+    "category": "rings",
+    "image_path": "output/rings/KM_606.jpg"
+  },
+  {
+    "id": 139,
+    "km_code": "KM_607",
+    "category": "rings",
+    "image_path": "output/rings/KM_607.jpg"
+  },
+  {
+    "id": 140,
+    "km_code": "KM_608",
+    "category": "rings",
+    "image_path": "output/rings/KM_608.jpg"
+  },
+  {
+    "id": 141,
+    "km_code": "KM_609",
+    "category": "rings",
+    "image_path": "output/rings/KM_609.jpg"
+  },
+  {
+    "id": 142,
+    "km_code": "KM_610",
+    "category": "rings",
+    "image_path": "output/rings/KM_610.jpg"
+  },
+  {
+    "id": 143,
+    "km_code": "KM_611",
+    "category": "rings",
+    "image_path": "output/rings/KM_611.jpg"
+  },
+  {
+    "id": 144,
+    "km_code": "KM_612",
+    "category": "rings",
+    "image_path": "output/rings/KM_612.jpg"
+  },
+  {
+    "id": 145,
+    "km_code": "KM_613",
+    "category": "rings",
+    "image_path": "output/rings/KM_613.jpg"
+  },
+  {
+    "id": 146,
+    "km_code": "KM_614",
+    "category": "rings",
+    "image_path": "output/rings/KM_614.jpg"
+  },
+  {
+    "id": 147,
+    "km_code": "KM_615",
+    "category": "rings",
+    "image_path": "output/rings/KM_615.jpg"
+  },
+  {
+    "id": 148,
+    "km_code": "KM_616",
+    "category": "rings",
+    "image_path": "output/rings/KM_616.jpg"
+  },
+  {
+    "id": 149,
+    "km_code": "KM_617",
+    "category": "rings",
+    "image_path": "output/rings/KM_617.jpg"
+  },
+  {
+    "id": 150,
+    "km_code": "KM_618",
+    "category": "rings",
+    "image_path": "output/rings/KM_618.jpg"
+  },
+  {
+    "id": 151,
+    "km_code": "KM_619",
+    "category": "rings",
+    "image_path": "output/rings/KM_619.jpg"
+  },
+  {
+    "id": 152,
+    "km_code": "KM_620",
+    "category": "rings",
+    "image_path": "output/rings/KM_620.jpg"
+  },
+  {
+    "id": 153,
+    "km_code": "KM_621",
+    "category": "rings",
+    "image_path": "output/rings/KM_621.jpg"
+  },
+  {
+    "id": 154,
+    "km_code": "KM_622",
+    "category": "rings",
+    "image_path": "output/rings/KM_622.jpg"
+  },
+  {
+    "id": 155,
+    "km_code": "KM_623",
+    "category": "rings",
+    "image_path": "output/rings/KM_623.jpg"
+  },
+  {
+    "id": 156,
+    "km_code": "KM_624",
+    "category": "rings",
+    "image_path": "output/rings/KM_624.jpg"
+  },
+  {
+    "id": 157,
+    "km_code": "KM_625",
+    "category": "rings",
+    "image_path": "output/rings/KM_625.jpg"
+  },
+  {
+    "id": 158,
+    "km_code": "KM_626",
+    "category": "rings",
+    "image_path": "output/rings/KM_626.jpg"
+  },
+  {
+    "id": 159,
+    "km_code": "KM_627",
+    "category": "rings",
+    "image_path": "output/rings/KM_627.jpg"
+  },
+  {
+    "id": 160,
+    "km_code": "KM_628",
+    "category": "rings",
+    "image_path": "output/rings/KM_628.jpg"
+  },
+  {
+    "id": 161,
+    "km_code": "KM_629",
+    "category": "rings",
+    "image_path": "output/rings/KM_629.jpg"
+  },
+  {
+    "id": 162,
+    "km_code": "KM_630",
+    "category": "rings",
+    "image_path": "output/rings/KM_630.jpg"
+  },
+  {
+    "id": 163,
+    "km_code": "KM_631",
+    "category": "rings",
+    "image_path": "output/rings/KM_631.jpg"
+  },
+  {
+    "id": 164,
+    "km_code": "KM_632",
+    "category": "rings",
+    "image_path": "output/rings/KM_632.jpg"
+  },
+  {
+    "id": 165,
+    "km_code": "KM_633",
+    "category": "rings",
+    "image_path": "output/rings/KM_633.jpg"
+  },
+  {
+    "id": 166,
+    "km_code": "KM_634",
+    "category": "rings",
+    "image_path": "output/rings/KM_634.jpg"
+  },
+  {
+    "id": 167,
+    "km_code": "KM_635",
+    "category": "rings",
+    "image_path": "output/rings/KM_635.jpg"
+  },
+  {
+    "id": 168,
+    "km_code": "KM_636",
+    "category": "rings",
+    "image_path": "output/rings/KM_636.jpg"
+  },
+  {
+    "id": 169,
+    "km_code": "KM_637",
+    "category": "rings",
+    "image_path": "output/rings/KM_637.jpg"
+  },
+  {
+    "id": 170,
+    "km_code": "KM_638",
+    "category": "rings",
+    "image_path": "output/rings/KM_638.jpg"
+  },
+  {
+    "id": 171,
+    "km_code": "KM_639",
+    "category": "rings",
+    "image_path": "output/rings/KM_639.jpg"
+  },
+  {
+    "id": 172,
+    "km_code": "KM_640",
+    "category": "rings",
+    "image_path": "output/rings/KM_640.jpg"
+  },
+  {
+    "id": 173,
+    "km_code": "KM_641",
+    "category": "rings",
+    "image_path": "output/rings/KM_641.jpg"
+  },
+  {
+    "id": 174,
+    "km_code": "KM_642",
+    "category": "rings",
+    "image_path": "output/rings/KM_642.jpg"
+  },
+  {
+    "id": 175,
+    "km_code": "KM_643",
+    "category": "rings",
+    "image_path": "output/rings/KM_643.jpg"
+  },
+  {
+    "id": 176,
+    "km_code": "KM_644",
+    "category": "rings",
+    "image_path": "output/rings/KM_644.jpg"
+  },
+  {
+    "id": 177,
+    "km_code": "KM_645",
+    "category": "rings",
+    "image_path": "output/rings/KM_645.jpg"
+  },
+  {
+    "id": 178,
+    "km_code": "KM_646",
+    "category": "rings",
+    "image_path": "output/rings/KM_646.jpg"
+  },
+  {
+    "id": 179,
+    "km_code": "KM_647",
+    "category": "rings",
+    "image_path": "output/rings/KM_647.jpg"
+  },
+  {
+    "id": 180,
+    "km_code": "KM_648",
+    "category": "rings",
+    "image_path": "output/rings/KM_648.jpg"
+  },
+  {
+    "id": 181,
+    "km_code": "KM_649",
+    "category": "rings",
+    "image_path": "output/rings/KM_649.jpg"
+  },
+  {
+    "id": 182,
+    "km_code": "KM_650",
+    "category": "rings",
+    "image_path": "output/rings/KM_650.jpg"
+  },
+  {
+    "id": 183,
+    "km_code": "KM_651",
+    "category": "rings",
+    "image_path": "output/rings/KM_651.jpg"
+  },
+  {
+    "id": 184,
+    "km_code": "KM_652",
+    "category": "rings",
+    "image_path": "output/rings/KM_652.jpg"
+  },
+  {
+    "id": 185,
+    "km_code": "KM_653",
+    "category": "rings",
+    "image_path": "output/rings/KM_653.jpg"
+  },
+  {
+    "id": 186,
+    "km_code": "KM_654",
+    "category": "rings",
+    "image_path": "output/rings/KM_654.jpg"
+  },
+  {
+    "id": 187,
+    "km_code": "KM_655",
+    "category": "rings",
+    "image_path": "output/rings/KM_655.jpg"
+  },
+  {
+    "id": 188,
+    "km_code": "KM_656",
+    "category": "rings",
+    "image_path": "output/rings/KM_656.jpg"
+  },
+  {
+    "id": 189,
+    "km_code": "KM_657",
+    "category": "rings",
+    "image_path": "output/rings/KM_657.jpg"
+  },
+  {
+    "id": 190,
+    "km_code": "KM_658",
+    "category": "rings",
+    "image_path": "output/rings/KM_658.jpg"
+  },
+  {
+    "id": 191,
+    "km_code": "KM_659",
+    "category": "rings",
+    "image_path": "output/rings/KM_659.jpg"
+  },
+  {
+    "id": 192,
+    "km_code": "KM_660",
+    "category": "rings",
+    "image_path": "output/rings/KM_660.jpg"
+  },
+  {
+    "id": 193,
+    "km_code": "KM_661",
+    "category": "rings",
+    "image_path": "output/rings/KM_661.jpg"
+  },
+  {
+    "id": 194,
+    "km_code": "KM_662",
+    "category": "rings",
+    "image_path": "output/rings/KM_662.jpg"
+  },
+  {
+    "id": 195,
+    "km_code": "KM_663",
+    "category": "rings",
+    "image_path": "output/rings/KM_663.jpg"
+  },
+  {
+    "id": 196,
+    "km_code": "KM_664",
+    "category": "rings",
+    "image_path": "output/rings/KM_664.jpg"
+  },
+  {
+    "id": 197,
+    "km_code": "KM_665",
+    "category": "rings",
+    "image_path": "output/rings/KM_665.jpg"
+  },
+  {
+    "id": 198,
+    "km_code": "KM_666",
+    "category": "rings",
+    "image_path": "output/rings/KM_666.jpg"
+  },
+  {
+    "id": 199,
+    "km_code": "KM_667",
+    "category": "rings",
+    "image_path": "output/rings/KM_667.jpg"
+  },
+  {
+    "id": 200,
+    "km_code": "KM_668",
+    "category": "rings",
+    "image_path": "output/rings/KM_668.jpg"
+  },
+  {
+    "id": 201,
+    "km_code": "KM_669",
+    "category": "rings",
+    "image_path": "output/rings/KM_669.jpg"
+  },
+  {
+    "id": 202,
+    "km_code": "KM_670",
+    "category": "rings",
+    "image_path": "output/rings/KM_670.jpg"
+  },
+  {
+    "id": 203,
+    "km_code": "KM_671",
+    "category": "rings",
+    "image_path": "output/rings/KM_671.jpg"
+  },
+  {
+    "id": 204,
+    "km_code": "KM_672",
+    "category": "rings",
+    "image_path": "output/rings/KM_672.jpg"
+  },
+  {
+    "id": 205,
+    "km_code": "KM_673",
+    "category": "rings",
+    "image_path": "output/rings/KM_673.jpg"
+  },
+  {
+    "id": 206,
+    "km_code": "KM_674",
+    "category": "rings",
+    "image_path": "output/rings/KM_674.jpg"
+  },
+  {
+    "id": 207,
+    "km_code": "KM_675",
+    "category": "rings",
+    "image_path": "output/rings/KM_675.jpg"
+  },
+  {
+    "id": 208,
+    "km_code": "KM_676",
+    "category": "rings",
+    "image_path": "output/rings/KM_676.jpg"
+  },
+  {
+    "id": 209,
+    "km_code": "KM_677",
+    "category": "rings",
+    "image_path": "output/rings/KM_677.jpg"
+  },
+  {
+    "id": 210,
+    "km_code": "KM_678",
+    "category": "rings",
+    "image_path": "output/rings/KM_678.jpg"
+  },
+  {
+    "id": 211,
+    "km_code": "KM_679",
+    "category": "rings",
+    "image_path": "output/rings/KM_679.jpg"
+  },
+  {
+    "id": 212,
+    "km_code": "KM_680",
+    "category": "rings",
+    "image_path": "output/rings/KM_680.jpg"
+  },
+  {
+    "id": 213,
+    "km_code": "KM_681",
+    "category": "rings",
+    "image_path": "output/rings/KM_681.jpg"
+  },
+  {
+    "id": 214,
+    "km_code": "KM_682",
+    "category": "rings",
+    "image_path": "output/rings/KM_682.jpg"
+  },
+  {
+    "id": 215,
+    "km_code": "KM_683",
+    "category": "rings",
+    "image_path": "output/rings/KM_683.jpg"
+  },
+  {
+    "id": 216,
+    "km_code": "KM_684",
+    "category": "rings",
+    "image_path": "output/rings/KM_684.jpg"
+  },
+  {
+    "id": 217,
+    "km_code": "KM_685",
+    "category": "rings",
+    "image_path": "output/rings/KM_685.jpg"
+  },
+  {
+    "id": 218,
+    "km_code": "KM_686",
+    "category": "rings",
+    "image_path": "output/rings/KM_686.jpg"
+  },
+  {
+    "id": 219,
+    "km_code": "KM_687",
+    "category": "rings",
+    "image_path": "output/rings/KM_687.jpg"
+  },
+  {
+    "id": 220,
+    "km_code": "KM_688",
+    "category": "rings",
+    "image_path": "output/rings/KM_688.jpg"
+  },
+  {
+    "id": 221,
+    "km_code": "KM_689",
+    "category": "rings",
+    "image_path": "output/rings/KM_689.jpg"
+  },
+  {
+    "id": 222,
+    "km_code": "KM_690",
+    "category": "rings",
+    "image_path": "output/rings/KM_690.jpg"
+  },
+  {
+    "id": 223,
+    "km_code": "KM_691",
+    "category": "rings",
+    "image_path": "output/rings/KM_691.jpg"
+  },
+  {
+    "id": 224,
+    "km_code": "KM_692",
+    "category": "rings",
+    "image_path": "output/rings/KM_692.jpg"
+  },
+  {
+    "id": 225,
+    "km_code": "KM_693",
+    "category": "rings",
+    "image_path": "output/rings/KM_693.jpg"
+  },
+  {
+    "id": 226,
+    "km_code": "KM_694",
+    "category": "rings",
+    "image_path": "output/rings/KM_694.jpg"
+  },
+  {
+    "id": 227,
+    "km_code": "KM_695",
+    "category": "rings",
+    "image_path": "output/rings/KM_695.jpg"
+  },
+  {
+    "id": 228,
+    "km_code": "KM_696",
+    "category": "rings",
+    "image_path": "output/rings/KM_696.jpg"
+  },
+  {
+    "id": 229,
+    "km_code": "KM_697",
+    "category": "rings",
+    "image_path": "output/rings/KM_697.jpg"
+  },
+  {
+    "id": 230,
+    "km_code": "KM_698",
+    "category": "rings",
+    "image_path": "output/rings/KM_698.jpg"
+  },
+  {
+    "id": 231,
+    "km_code": "KM_699",
+    "category": "rings",
+    "image_path": "output/rings/KM_699.jpg"
+  },
+  {
+    "id": 232,
+    "km_code": "KM_700",
+    "category": "rings",
+    "image_path": "output/rings/KM_700.jpg"
+  },
+  {
+    "id": 233,
+    "km_code": "KM_701",
+    "category": "rings",
+    "image_path": "output/rings/KM_701.jpg"
+  },
+  {
+    "id": 234,
+    "km_code": "KM_702",
+    "category": "rings",
+    "image_path": "output/rings/KM_702.jpg"
+  },
+  {
+    "id": 235,
+    "km_code": "KM_703",
+    "category": "rings",
+    "image_path": "output/rings/KM_703.jpg"
+  },
+  {
+    "id": 236,
+    "km_code": "KM_704",
+    "category": "rings",
+    "image_path": "output/rings/KM_704.jpg"
+  },
+  {
+    "id": 237,
+    "km_code": "KM_705",
+    "category": "rings",
+    "image_path": "output/rings/KM_705.jpg"
+  },
+  {
+    "id": 238,
+    "km_code": "KM_706",
+    "category": "rings",
+    "image_path": "output/rings/KM_706.jpg"
+  },
+  {
+    "id": 239,
+    "km_code": "KM_707",
+    "category": "rings",
+    "image_path": "output/rings/KM_707.jpg"
+  },
+  {
+    "id": 240,
+    "km_code": "KM_708",
+    "category": "rings",
+    "image_path": "output/rings/KM_708.jpg"
+  },
+  {
+    "id": 241,
+    "km_code": "KM_1012",
+    "category": "bangles",
+    "image_path": "output/bangles/KM_1012.jpg"
+  },
+  {
+    "id": 242,
+    "km_code": "KM_1013",
+    "category": "bangles",
+    "image_path": "output/bangles/KM_1013.jpg"
+  },
+  {
+    "id": 243,
+    "km_code": "KM_1014",
+    "category": "bangles",
+    "image_path": "output/bangles/KM_1014.jpg"
+  },
+  {
+    "id": 244,
+    "km_code": "KM_1015",
+    "category": "bangles",
+    "image_path": "output/bangles/KM_1015.jpg"
+  },
+  {
+    "id": 245,
+    "km_code": "KM_1016",
+    "category": "bangles",
+    "image_path": "output/bangles/KM_1016.jpg"
+  },
+  {
+    "id": 246,
+    "km_code": "KM_1017",
+    "category": "bangles",
+    "image_path": "output/bangles/KM_1017.jpg"
+  },
+  {
+    "id": 247,
+    "km_code": "KM_1018",
+    "category": "bangles",
+    "image_path": "output/bangles/KM_1018.jpg"
+  },
+  {
+    "id": 248,
+    "km_code": "KM_1019",
+    "category": "bangles",
+    "image_path": "output/bangles/KM_1019.jpg"
+  },
+  {
+    "id": 249,
+    "km_code": "KM_1020",
+    "category": "bangles",
+    "image_path": "output/bangles/KM_1020.jpg"
+  },
+  {
+    "id": 250,
+    "km_code": "KM_1021",
+    "category": "bangles",
+    "image_path": "output/bangles/KM_1021.jpg"
+  },
+  {
+    "id": 251,
+    "km_code": "KM_1022",
+    "category": "bangles",
+    "image_path": "output/bangles/KM_1022.jpg"
+  },
+  {
+    "id": 252,
+    "km_code": "KM_1023",
+    "category": "bangles",
+    "image_path": "output/bangles/KM_1023.jpg"
+  },
+  {
+    "id": 253,
+    "km_code": "KM_1024",
+    "category": "bangles",
+    "image_path": "output/bangles/KM_1024.jpg"
+  },
+  {
+    "id": 254,
+    "km_code": "KM_1025",
+    "category": "bangles",
+    "image_path": "output/bangles/KM_1025.jpg"
+  },
+  {
+    "id": 255,
+    "km_code": "KM_1026",
+    "category": "bangles",
+    "image_path": "output/bangles/KM_1026.jpg"
+  },
+  {
+    "id": 256,
+    "km_code": "KM_1027",
+    "category": "bangles",
+    "image_path": "output/bangles/KM_1027.jpg"
+  },
+  {
+    "id": 257,
+    "km_code": "KM_1028",
+    "category": "bangles",
+    "image_path": "output/bangles/KM_1028.jpg"
+  },
+  {
+    "id": 258,
+    "km_code": "KM_1029",
+    "category": "bangles",
+    "image_path": "output/bangles/KM_1029.jpg"
+  },
+  {
+    "id": 259,
+    "km_code": "KM_1048",
+    "category": "bangles",
+    "image_path": "output/bangles/KM_1048.jpg"
+  },
+  {
+    "id": 260,
+    "km_code": "KM_1049",
+    "category": "bangles",
+    "image_path": "output/bangles/KM_1049.jpg"
+  },
+  {
+    "id": 261,
+    "km_code": "KM_1050",
+    "category": "bangles",
+    "image_path": "output/bangles/KM_1050.jpg"
+  },
+  {
+    "id": 262,
+    "km_code": "KM_1051",
+    "category": "bangles",
+    "image_path": "output/bangles/KM_1051.jpg"
+  },
+  {
+    "id": 263,
+    "km_code": "KM_1052",
+    "category": "bangles",
+    "image_path": "output/bangles/KM_1052.jpg"
+  },
+  {
+    "id": 264,
+    "km_code": "KM_1053",
+    "category": "bangles",
+    "image_path": "output/bangles/KM_1053.jpg"
+  },
+  {
+    "id": 265,
+    "km_code": "KM_1054",
+    "category": "bangles",
+    "image_path": "output/bangles/KM_1054.jpg"
+  },
+  {
+    "id": 266,
+    "km_code": "KM_1055",
+    "category": "bangles",
+    "image_path": "output/bangles/KM_1055.jpg"
+  },
+  {
+    "id": 267,
+    "km_code": "KM_1056",
+    "category": "bangles",
+    "image_path": "output/bangles/KM_1056.jpg"
+  },
+  {
+    "id": 268,
+    "km_code": "KM_1057",
+    "category": "bangles",
+    "image_path": "output/bangles/KM_1057.jpg"
+  },
+  {
+    "id": 269,
+    "km_code": "KM_1058",
+    "category": "bangles",
+    "image_path": "output/bangles/KM_1058.jpg"
+  },
+  {
+    "id": 270,
+    "km_code": "KM_1059",
+    "category": "bangles",
+    "image_path": "output/bangles/KM_1059.jpg"
+  },
+  {
+    "id": 271,
+    "km_code": "KM_1060",
+    "category": "bangles",
+    "image_path": "output/bangles/KM_1060.jpg"
+  },
+  {
+    "id": 272,
+    "km_code": "KM_1061",
+    "category": "bangles",
+    "image_path": "output/bangles/KM_1061.jpg"
+  },
+  {
+    "id": 273,
+    "km_code": "KM_1062",
+    "category": "bangles",
+    "image_path": "output/bangles/KM_1062.jpg"
+  },
+  {
+    "id": 274,
+    "km_code": "KM_1063",
+    "category": "bangles",
+    "image_path": "output/bangles/KM_1063.jpg"
+  },
+  {
+    "id": 275,
+    "km_code": "KM_1064",
+    "category": "bangles",
+    "image_path": "output/bangles/KM_1064.jpg"
+  },
+  {
+    "id": 276,
+    "km_code": "KM_1065",
+    "category": "bangles",
+    "image_path": "output/bangles/KM_1065.jpg"
+  }
+]
