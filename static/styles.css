@@ -505,3 +505,33 @@ h2 {
     justify-items: start;
   }
 }
+
+.result-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  grid-column: 1 / -1;
+  margin-top: 8px;
+  padding: 6px 12px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--ink);
+  background: var(--panel);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 160ms ease;
+  justify-content: center;
+}
+
+.result-download-btn:hover {
+  border-color: var(--gold);
+  color: var(--wine);
+  background: #ffffff;
+}
+
+.result-download-btn svg {
+  width: 16px;
+  height: 16px;
+}
+

@@ -66,7 +66,7 @@ else:
 # ── Search logic ─────────────────────────────────────
 def search(query_image, category, num_results):
     if query_image is None:
-        return [], "Please upload an image first."
+        return [], [], "Please upload an image first."
 
     query_emb = embed_image(query_image)
 
@@ -81,12 +81,13 @@ def search(query_image, category, num_results):
         similarities = similarities[mask]
 
     if len(indices) == 0:
-        return [], f"No items found in category '{category}'."
+        return [], [], f"No items found in category '{category}'."
 
     num_results = int(num_results)
     top_k = np.argsort(-similarities)[:num_results]
 
     gallery_items = []
+    download_files = []
     for idx in top_k:
         orig_idx = indices[idx]
         img_path = Path(str(CATALOG_IMAGE_PATHS[orig_idx]))
@@ -98,8 +99,9 @@ def search(query_image, category, num_results):
             gallery_items.append(
                 (str(img_path), f"{km_code} ({cat}) — Match: {score:.1%}")
             )
+            download_files.append(str(img_path))
 
-    return gallery_items, f"Found {len(gallery_items)} matching items"
+    return gallery_items, download_files, f"Found {len(gallery_items)} matching items"
 
 # ── Gradio UI ────────────────────────────────────────
 with gr.Blocks(title="Jewelry Similarity Search") as demo:
@@ -146,20 +148,24 @@ with gr.Blocks(title="Jewelry Similarity Search") as demo:
             gallery = gr.Gallery(
                 label="Similar Items",
                 columns=3,
-                height=500,
+                height=450,
                 object_fit="cover",
+            )
+            download_output = gr.Files(
+                label="📥 Download Resulting Pictures",
+                interactive=False,
             )
 
     search_btn.click(
         fn=search,
         inputs=[input_image, category, num_results],
-        outputs=[gallery, status_text],
+        outputs=[gallery, download_output, status_text],
     )
 
     input_image.change(
         fn=search,
         inputs=[input_image, category, num_results],
-        outputs=[gallery, status_text],
+        outputs=[gallery, download_output, status_text],
     )
 
     gr.Examples(

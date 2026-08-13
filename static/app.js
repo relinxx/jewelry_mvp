@@ -93,6 +93,12 @@ function renderResults(results) {
     node.querySelector(".result-code").textContent = result.km_code;
     node.querySelector(".result-score").textContent = Number(result.similarity).toFixed(4);
 
+    const downloadBtn = node.querySelector(".result-download-btn");
+    if (downloadBtn) {
+      downloadBtn.href = result.image_url;
+      downloadBtn.download = `${result.km_code}.jpg`;
+    }
+
     resultsGrid.append(node);
   }
 }
