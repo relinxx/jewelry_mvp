@@ -8,11 +8,21 @@ from PIL import Image, ImageOps
 from pathlib import Path
 from transformers import AutoImageProcessor, AutoModel
 
-# ── Model (CPU mode for maximum stability on HF Spaces) ──────
-MODEL_NAME = "facebook/dinov2-base"
-DEVICE = "cpu"
+# ── ZeroGPU Support ─────────────────────────────────
+try:
+    import spaces
+    HAS_SPACES = True
+except ImportError:
+    HAS_SPACES = False
 
-print(f"Loading DINOv2 model on {DEVICE}...")
+MODEL_NAME = "facebook/dinov2-base"
+
+if HAS_SPACES:
+    DEVICE = "cuda"
+else:
+    DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+
+print(f"Loading DINOv2 model on {DEVICE} (ZeroGPU: {HAS_SPACES})...")
 processor = AutoImageProcessor.from_pretrained(MODEL_NAME)
 model = AutoModel.from_pretrained(MODEL_NAME).to(DEVICE).eval()
 print("DINOv2 model loaded successfully.")
@@ -34,8 +44,7 @@ else:
     )
 
 # ── Embedding helper ─────────────────────────────────
-def embed_image(pil_image: Image.Image) -> np.ndarray:
-    """Generate a normalized DINOv2 embedding from a PIL image."""
+def _generate_embedding(pil_image: Image.Image) -> np.ndarray:
     img = ImageOps.exif_transpose(pil_image).convert("RGB")
     inputs = processor(images=img, return_tensors="pt")
     inputs = {k: v.to(DEVICE) for k, v in inputs.items()}
@@ -45,6 +54,14 @@ def embed_image(pil_image: Image.Image) -> np.ndarray:
 
     emb = torch.nn.functional.normalize(outputs.pooler_output, p=2, dim=1)
     return emb.squeeze(0).cpu().numpy().astype(np.float32)
+
+if HAS_SPACES:
+    @spaces.GPU
+    def embed_image(pil_image: Image.Image) -> np.ndarray:
+        return _generate_embedding(pil_image)
+else:
+    def embed_image(pil_image: Image.Image) -> np.ndarray:
+        return _generate_embedding(pil_image)
 
 # ── Search logic ─────────────────────────────────────
 def search(query_image, category, num_results):
