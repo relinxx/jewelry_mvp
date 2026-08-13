@@ -1,8 +1,4 @@
 # app.py  —  Gradio interface for Hugging Face Spaces
-#
-# This is the entry point HF Spaces looks for.
-# It wraps the same DINOv2 embedding + NumPy similarity search
-# in a Gradio UI.
 
 import numpy as np
 import torch
@@ -12,16 +8,14 @@ from PIL import Image, ImageOps
 from pathlib import Path
 from transformers import AutoImageProcessor, AutoModel
 
-
-# ── Model ────────────────────────────────────────────
+# ── Model (CPU mode for maximum stability on HF Spaces) ──────
 MODEL_NAME = "facebook/dinov2-base"
-DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+DEVICE = "cpu"
 
-print(f"Loading DINOv2 on {DEVICE}...")
+print(f"Loading DINOv2 model on {DEVICE}...")
 processor = AutoImageProcessor.from_pretrained(MODEL_NAME)
 model = AutoModel.from_pretrained(MODEL_NAME).to(DEVICE).eval()
-print("Model loaded.")
-
+print("DINOv2 model loaded successfully.")
 
 # ── Dataset ──────────────────────────────────────────
 NPZ_PATH = Path("catalog_embeddings.npz")
@@ -36,10 +30,8 @@ if NPZ_PATH.exists():
     print(f"Loaded catalog: {len(CATALOG_IDS)} items")
 else:
     raise FileNotFoundError(
-        f"catalog_embeddings.npz not found at {NPZ_PATH.resolve()}. "
-        "Run 'python embed_catalog.py' first."
+        f"catalog_embeddings.npz not found at {NPZ_PATH.resolve()}."
     )
-
 
 # ── Embedding helper ─────────────────────────────────
 def embed_image(pil_image: Image.Image) -> np.ndarray:
@@ -54,21 +46,17 @@ def embed_image(pil_image: Image.Image) -> np.ndarray:
     emb = torch.nn.functional.normalize(outputs.pooler_output, p=2, dim=1)
     return emb.squeeze(0).cpu().numpy().astype(np.float32)
 
-
 # ── Search logic ─────────────────────────────────────
 def search(query_image, category, num_results):
     if query_image is None:
         return [], "Please upload an image first."
 
-    # Generate query embedding
     query_emb = embed_image(query_image)
 
-    # Cosine similarity (embeddings are already L2-normalized)
+    # Cosine similarity
     similarities = CATALOG_EMBEDDINGS @ query_emb
-
     indices = np.arange(len(similarities))
 
-    # Filter by category
     if category and category != "All":
         cat_lower = category.lower()
         mask = np.char.lower(CATALOG_CATEGORIES) == cat_lower
@@ -78,11 +66,9 @@ def search(query_image, category, num_results):
     if len(indices) == 0:
         return [], f"No items found in category '{category}'."
 
-    # Top-K
     num_results = int(num_results)
     top_k = np.argsort(-similarities)[:num_results]
 
-    # Build gallery output
     gallery_items = []
     for idx in top_k:
         orig_idx = indices[idx]
@@ -93,26 +79,13 @@ def search(query_image, category, num_results):
 
         if img_path.exists():
             gallery_items.append(
-                (str(img_path), f"{km_code} ({cat}) — {score:.1%}")
+                (str(img_path), f"{km_code} ({cat}) — Match: {score:.1%}")
             )
 
-    status = f"Found {len(gallery_items)} similar items"
-    return gallery_items, status
-
+    return gallery_items, f"Found {len(gallery_items)} matching items"
 
 # ── Gradio UI ────────────────────────────────────────
-with gr.Blocks(
-    title="Jewelry Similarity Search",
-    theme=gr.themes.Soft(
-        primary_hue="amber",
-        secondary_hue="orange",
-        neutral_hue="stone",
-    ),
-    css="""
-    .gradio-container { max-width: 1100px !important; }
-    .gallery-item img { object-fit: cover; border-radius: 8px; }
-    """,
-) as demo:
+with gr.Blocks(title="Jewelry Similarity Search") as demo:
 
     gr.Markdown(
         """
@@ -160,21 +133,18 @@ with gr.Blocks(
                 object_fit="cover",
             )
 
-    # Wire up the search
     search_btn.click(
         fn=search,
         inputs=[input_image, category, num_results],
         outputs=[gallery, status_text],
     )
 
-    # Also trigger on image upload
     input_image.change(
         fn=search,
         inputs=[input_image, category, num_results],
         outputs=[gallery, status_text],
     )
 
-    # Example images from catalog
     gr.Examples(
         examples=[
             ["output/rings/KM_409.jpg"],
@@ -184,7 +154,6 @@ with gr.Blocks(
         inputs=input_image,
         label="Try a catalog sample",
     )
-
 
 if __name__ == "__main__":
     demo.launch()
