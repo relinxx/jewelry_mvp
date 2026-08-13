@@ -21,7 +21,7 @@ CATALOG_DIR = BASE_DIR / "output"
 def get_cors_origins():
     frontend_url = os.getenv(
         "FRONTEND_URL",
-        "http://localhost:5173",
+        "*",
     )
 
     return [
